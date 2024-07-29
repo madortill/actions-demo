@@ -6,7 +6,7 @@
 
 </template>
 
-<script>
+<script setup>
 import HelloWorld from './components/Helloworld.vue'
 </script>
 

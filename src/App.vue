@@ -1,13 +1,23 @@
 <template>
 
     <div class="wrapper">
-      <HelloWorld msg="You did it!" />
+      <button @click="onClick">click me</button>
       </div>
 
 </template>
 
-<script setup>
-import HelloWorld from './components/HelloWorld.vue'
+<script>
+    export default {
+      data() {
+        return {
+          arr: [1,2,3]
+        }
+      }, methods: {
+        one () {
+
+        
+      }
+    }
 </script>
 
 <style scoped>
